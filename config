@@ -1,0 +1,12 @@
+{
+  "influxdb_ip": "xxx.xxx.xxx.xxx",
+  "influxdb_port": 8086,
+  "influxdb_username": "username",
+  "influxdb_passwd": "password",
+  "influxdb_db": "monitor",
+  "ignore_container_list": ["influxdb"],
+  "sleep_time": 30,
+  "eth_name": "ens33",
+  "container_logs_path": "/var/lib/docker/containers",
+  "container_config_file_name": "config.v2.json"
+}
